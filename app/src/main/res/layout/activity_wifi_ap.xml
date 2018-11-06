@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/wifi_ap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+
+
+    <Button
+        android:id="@+id/wifi_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="连接热点" />
+
+    <Button
+        android:id="@+id/wifi_discount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="断开热点" />
+
+    <Button
+        android:id="@+id/wifi_socket_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="建立socket连接" />
+
+    <Button
+        android:id="@+id/wifi_socket_disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="断开socket连接" />
+
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_edt"
+        android:hint="请输入...."
+        android:padding="10dp" />
+
+
+    <Button
+        android:id="@+id/wifi_data_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送" />
+
+
+</LinearLayout>
